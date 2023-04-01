@@ -25,7 +25,7 @@ give the json file name  ex: account
 give the project location 
 
 
-Before running the project make sure the  jar are added to the project  classpath
+Before running the project make sure the  jars are added to the project  classpath
 run the project 
 make sure  your server is up running
 
