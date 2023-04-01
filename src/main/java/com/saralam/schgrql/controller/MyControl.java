@@ -16,7 +16,7 @@ public class MyControl {
     public MyServ myServ;
 
     @QueryMapping("search")
-    public List<Object> the(@Argument int z, @Argument String y) {
-        return myServ.robj(z, y);
+    public List<Object> the(@Argument Long poid, @Argument String object) {
+        return myServ.robj(poid, object);
     }
 }
